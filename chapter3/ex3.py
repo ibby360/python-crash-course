@@ -11,7 +11,3 @@ print(f"Hey! {invited[2].title()}, I'm having a dinner at my place tonight. You'
 print(f"Hey! {invited[3].title()}, I'm having a dinner at my place tonight. You're invited.")
 print(f"Hey! {invited[4].title()}, I'm having a dinner at my place tonight. You're invited.")
 print(f"Hey! {invited[5].title()}, I'm having a dinner at my place tonight. You're invited.")
-
-
-
-print()

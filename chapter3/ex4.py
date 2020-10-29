@@ -36,6 +36,7 @@ print(f"{invited[1].title()},Good news you are still invited")
 print(f"{invited[0].title()},Good news you are still invited")
 print()
 
+# then delete remained people from the list
 del invited[0]
 del invited[0]
 print(invited)
