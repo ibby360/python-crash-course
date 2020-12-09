@@ -38,16 +38,16 @@ class User():
     def reset_login_attempts(self):
         self.login_attempt = 0
 
-john = User('john', 'eric', 'john_eric', 'ericjohn.gmail.com', 'Dar es salaam')
-john.describe_user()
-john.greet_user()
+robert = User('robert', 'eric', 'robert_eric', 'ericrobert.gmail.com', 'Dar es salaam')
+robert.describe_user()
+robert.greet_user()
 
 print("\nMake three login attemps...")
-john.increment_login_attempt
-john.increment_login_attempt
-john.increment_login_attempt
-print(f"  Login attemps: {john.login_attempt}")
+robert.increment_login_attempt
+robert.increment_login_attempt
+robert.increment_login_attempt
+print(f"  Login attemps: {robert.login_attempt}")
 
 print("Reserting login attempts...")
-john.reset_login_attempts()
-print(f"  Login attempts: {john.login_attempt}")
+robert.reset_login_attempts()
+print(f"  Login attempts: {robert.login_attempt}")hn.login_attempt}")hn.login_attempt}")
